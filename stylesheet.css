@@ -10,17 +10,31 @@
 	   border:1px solid gray;
 	   color:maroon;
 	   }
-	   h1 {font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	   h1,h2,h3,h4,h5,h6 {
+  font-family: $sansFontFamily;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+	   h1 {
 	   color:maroon;
 	   border-bottom: 1px solid gray;
 	   }
-	   h2 {font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	   h2 {
 	   color:grey;
 	   }
-       img {
-	margin-left: 21%;
+       img.main {
+	margin-left:38%;
+	   }
+	     img.tiny {
+	margin-left:18%;
 	   }
 	   h2.ad {background-color:#CF0;
 	   font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	   color:#C00;
+	   }
+       a.text {font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	   background-color:#9FF;
+	   color:#69F;
+	   font-size:36px;
 	   }
