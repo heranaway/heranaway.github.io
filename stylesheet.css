@@ -12,8 +12,9 @@
 	   }
 	 
 	   h1 {
-	   color:maroon;
+	   color:#09F;
 	   border-bottom: 1px solid gray;
+	   font-family: 'Sigmar One', cursive;
 	   }
 	   h2 {
 	   color:grey;
