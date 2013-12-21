@@ -1,12 +1,12 @@
 ﻿       body {
-		   background-color:#CFC;
+		   background-color:Azure;
 		   margin-left: 20%;
 		   margin-right: 20%;
 		   border: 2px dotted black;
 		   padding: 10px 10px 10px 10px;
 		   font-family:font-family:"Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	   }
-	   p {background-color:#0CC;
+	   p {background-color:LightCyan;
 	   border:1px solid gray;
 	   color:maroon;
 	   }
@@ -30,7 +30,7 @@
 	   color:#C00;
 	   }
        a.text {font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	   background-color:#9FF;
+	   background-color:Azure;
 	   color:#69F;
 	   font-size:36px;
 	   }
