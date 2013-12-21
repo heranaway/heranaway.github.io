@@ -10,6 +10,7 @@
 	   p {background-color:LightCyan;
 	   border:1px solid gray;
 	   color:maroon;
+	   font-size:18px;
 	   }
 	 
 	   h1 {
@@ -37,9 +38,13 @@
 	   font-size:36px;
 	   }
 	   footer {font-size:13px;
+	   color:#999;
 	
 	   }
 	   .intro {padding:72px;
-	   line-height:2em;}
+	   line-height:2em;
+	   margin: 72px;
+	   background-image:url(images/side.png);
 	   }
+	   
 	   .contact {
