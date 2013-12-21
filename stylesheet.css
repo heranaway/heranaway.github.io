@@ -5,6 +5,7 @@
 		   border: 2px dotted black;
 		   padding: 10px 10px 10px 10px;
 		   font-family:font-family:"Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+		   line-height:1.6em;
 	   }
 	   p {background-color:LightCyan;
 	   border:1px solid gray;
@@ -15,6 +16,7 @@
 	   color:#09F;
 	   border-bottom: 1px solid gray;
 	   font-family: 'Sigmar One', cursive;
+	   font-size:72px;
 	   }
 	   h2 {
 	   color:grey;
@@ -33,4 +35,7 @@
 	   background-color:Azure;
 	   color:#69F;
 	   font-size:36px;
+	   }
+	   footer {font-size:13px;
+	
 	   }
