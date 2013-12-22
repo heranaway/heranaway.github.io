@@ -23,11 +23,23 @@ p {   background-color:LightCyan;
 	   color:grey;
 	   font-size:33px;
 	   }
-       img.main {
-	margin-left:38%;
+       #cm {
+		   text-align:center;
+	margin-left:auto;
+	margin-right:auto;
 	   }
-	    img.tiny {
+	    #god{
+			width:40px;
+			height:40px;
+		}
+		#syc {width:40px;
+			height:40px;
+		}
+		img.tiny {
 	margin-left:18%;
+	   }
+	   #if {width:40px;
+			height:40px;
 	   }
 	   
 	   
@@ -36,6 +48,7 @@ p {   background-color:LightCyan;
 	   background-color:#CF0;
 	   font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	   color:#C00;
+	   text-align:center;
 	   }
        a.text {font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	   background-color:Azure;
