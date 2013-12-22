@@ -56,3 +56,40 @@
 	   }
 	   ul {font-size:24px;
 	   }
+       
+	  .dota {
+		  margin-bottom:10px;
+		  width: 800px;
+		  height: 325px;
+		  display:block;
+		  background: transparent url(images/meepo.jpg) center top repeat-x;
+		 margin-left: auto;
+		 margin-right:auto;
+	  }
+		  
+	  .dota:hover {margin-bottom:10px;
+		  width: 800px;
+		  height: 325px;
+		  display:block;
+		  background: transparent url(images/meepo2.jpg) center top repeat-x;
+		 margin-left: auto;
+		 margin-right:auto;
+	  }
+	  .starcraft {
+		  margin-bottom:10px;
+		  width: 800px;
+		  height: 325px;
+		  display:block;
+		  background: transparent url(images/starcraft1.jpg) center top repeat-x;
+		 margin-left: auto;
+		 margin-right:auto;
+	  }
+		  
+	  .starcraft:hover {margin-bottom:10px;
+		  width: 800px;
+		  height: 325px;
+		  display:block;
+		  background: transparent url(images/starcraft2.jpg) center top repeat-x;
+		 margin-left: auto;
+		 margin-right:auto;
+	  }
