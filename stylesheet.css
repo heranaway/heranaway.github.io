@@ -1,4 +1,4 @@
-﻿body {background-color:Azure;
+﻿body {background-color:#333;
 	  margin-left: 20%;
 	  margin-right: 20%;
 	  border: solid 3px #000000;
@@ -6,14 +6,16 @@
 	  font-family:"Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	 }
 	   
-p {   background-color:LightCyan; 
-	  color:maroon;
+p {   background-color:White; 
+	  color:Black;
 	  font-size:18px;
+	  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  line-height:2em;
 	  
 	 }
 	 
 	   h1 {
-	   color:#09F;
+	   color:white;
 	   border-bottom: 1px solid gray;
 	   font-family: 'Sigmar One', cursive;
 	   font-size:72px;
@@ -22,6 +24,11 @@ p {   background-color:LightCyan;
 	   h2 {
 	   color:grey;
 	   font-size:33px;
+	   }
+	   
+	   #tidehunter {text-align:center;
+	   margin-left:auto;
+	   margin-right:auto;
 	   }
        #cm {
 		   text-align:center;
@@ -50,10 +57,10 @@ p {   background-color:LightCyan;
 	   color:#C00;
 	   text-align:center;
 	   }
-       a.text {font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	   background-color:Azure;
-	   color:#69F;
-	   font-size:36px;
+       a {font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	   
+	   color:silver;
+	   font-size:15px;
 	   }
 	   footer {font-size:13px;
 	   color:#999;
@@ -69,7 +76,7 @@ p {   background-color:LightCyan;
 	   }
 	   ul {font-size:24px;
 	   }
-       
+/**IMAGES HIGHLIT WHEN MOUSEOVER, STARTS HERE**/
 	  .dota {
 		  margin-bottom:10px;
 		  width: 800px;
@@ -106,3 +113,4 @@ p {   background-color:LightCyan;
 		 margin-left: auto;
 		 margin-right:auto;
 	  }
+	 /**IMAGES HIGHLIT WHEN MOUSEOVER, ENDS HERE**/
