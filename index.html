@@ -4,18 +4,38 @@
 <meta charset="utf-8">
 <title>PrepGaming.com</title>
 <link type='text/css' rel="stylesheet" href="stylesheet.css">
+<script language="javascript" type="text/javascript">
+function showHide(shID) {
+   if (document.getElementById(shID)) {
+      if (document.getElementById(shID+'-show').style.display != 'none') {
+         document.getElementById(shID+'-show').style.display = 'none';
+         document.getElementById(shID).style.display = 'block';
+      }
+      else {
+         document.getElementById(shID+'-show').style.display = 'inline';
+         document.getElementById(shID).style.display = 'none';
+      }
+   }
+}
+</script>
 <link href='http://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 <h1>PrepMugging<sup>&copy;</sup></h1>
 <br>
-<p>Hey there cowboy! This is a random website I created to practice my HTML&amp;CSS skills (apparently I need a lot more practice). Feel free to comment/flame in the <a href="prepdota.html#disqus_thread">Disqus</a> section. 
-<br><br>
-Learning <del>PHP</del> more CSS, be back soon with new stuff!
+<p>Hey there cowboy! This is a random website I created to practice my HTML&amp;CSS skills (apparently I need a lot more practice). Feel free to comment/flame in the <a href="prepdota.html#disqus_thread">Disqus</a> section.
 <br>
-Continue checking my main page <a href='prepdota.html'>Here</a>.
+23/12: Well this site is under heavy construction, all the colour schemes/contents are not fixed yet. Hope I'll get there soon.<br>
+<a href="#" id="example-show" class="showLink" 
+onclick="showHide('example');return false;">See more.</a>
 </p>
+<div id="example" class="more">
+	<p>22/12: Learning <del>PHP</del> more CSS, be back soon with new stuff! Continue checking my main page <a href='prepdota.html'>Here</a>.</p>
+	<p><a href="#" id="example-hide" class="hideLink" 
+	onclick="showHide('example');return false;">Hide this content.</a></p>
+</div>
+
 <br>
 
 <h2>
@@ -35,7 +55,7 @@ A true game for true Koreans.
 
 
 
-<a id='text contact' href='contact/contact.html' title="You didn't really think you can find me, did you?">
+<a id='text' href='contact/contact.html' title="You didn't really think you can find me, did you?">
 Contact Us</a>
 <hr>
 

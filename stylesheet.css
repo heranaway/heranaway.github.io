@@ -1,31 +1,40 @@
-﻿body {background-color:#333;
-	  margin-left: 20%;
-	  margin-right: 20%;
-	  border: solid 3px #000000;
+﻿body {background-color:#103A40;
+	  margin-left: 0;
+	  margin-right: 0;
+	 
 	  padding: 10px 10px 10px 10px;
 	  font-family:"Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
 	 }
+	 
 	   
-p {   background-color:White; 
-	  color:Black;
+p {   background-color:#ACEDFF; 
+	  color:black;
 	  font-size:18px;
 	  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	  line-height:2em;
 	  
 	 }
-	 
+	 #main {background-color:#41E9FF;
+	 margin:0px;
+	 padding:100px;
+	 border:#41E9FF;
+	 }
 	   h1 {
-	   color:white;
+	   color:#5FDCFF;
 	   border-bottom: 1px solid gray;
 	   font-family: 'Sigmar One', cursive;
 	   font-size:72px;
 	   text-align:center;
 	   }
-	   h2 {
-	   color:grey;
+	   h2,h4 {
+	   color:white;
 	   font-size:33px;
 	   }
-	   
+	  ul {color:#FFFFFF;
+	  background-color:#20747F;
+	  padding:60px;
+	  margin: 100px;
+	   }
 	   #tidehunter {text-align:center;
 	   margin-left:auto;
 	   margin-right:auto;
@@ -59,7 +68,7 @@ p {   background-color:White;
 	   }
        a {font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	   
-	   color:silver;
+	   color:black;
 	   font-size:15px;
 	   }
 	   footer {font-size:13px;
@@ -71,8 +80,9 @@ p {   background-color:White;
 	   margin: 72px;
 	   background-image:url(images/side.png);
 	   background-repeat:no-repeat;
+	   background-position:bottom right;
 	   font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-		   border: 36px Azure dashed;
+	   border-radius: 40px;
 	   }
 	   ul {font-size:24px;
 	   }
@@ -114,3 +124,25 @@ p {   background-color:White;
 		 margin-right:auto;
 	  }
 	 /**IMAGES HIGHLIT WHEN MOUSEOVER, ENDS HERE**/
+	 /* This CSS is just for presentational purposes. */
+#wrap {
+      font: 1.3em/1.3 Arial, Helvetica, sans-serif;
+      width: 30em;
+      margin: 0 auto;
+      padding: 1em;
+      background-color: #fff; }
+
+   /* This CSS is used for the Show/Hide functionality. */
+   .more {
+      display: none;
+      border-top: 1px solid #666;
+      border-bottom: 1px solid #666; }
+   a.showLink, a.hideLink {
+      text-decoration: none;
+      color: #36f;
+      padding-left: 8px;
+      background: transparent url(down.gif) no-repeat left; }
+   a.hideLink {
+      background: transparent url(up.gif) no-repeat left; }
+   a.showLink:hover, a.hideLink:hover {
+      border-bottom: 1px dotted #36f; }
